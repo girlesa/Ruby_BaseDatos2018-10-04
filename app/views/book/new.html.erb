@@ -14,7 +14,23 @@
         <br />
         <textarea name="book[description]" placeholder="Ingrese la descripción o reseña del libro"></textarea>
     </div>
+    
     <br />
+    
+    <div>
+    <label>Autor</label>
+    <br>
+    <select name = "book[author_id]">
+    <% for author in @authors%>
+    <option value ="<%= author.id%>">
+    <%=author.name%>
+    </option>
+    <%end%>
+    </select>
+    </div>
+
+
+    </div>
     <div>
         <button type="submit">Crear libro</button>
     </div>
