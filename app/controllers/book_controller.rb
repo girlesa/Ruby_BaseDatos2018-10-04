@@ -30,6 +30,8 @@ class BookController < ApplicationController
         end
     end
 
+   
+
     def delete
         @book = Book.find(params[:id])
         unless @book.nil?

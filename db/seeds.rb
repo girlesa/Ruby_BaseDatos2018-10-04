@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+=begin
 
 Book.create(title: 'Las venas abiertas de América Latina',
             description: 'Con este libro Eduardo Galeano vendío muchos ejemplares...')
@@ -17,3 +18,6 @@ Book.create(title: 'Baluarte',
 
 Book.create(title: "No nacimos pa' semilla",
             description: 'Salazar hace una interesante crónica de la juventud y la violencia en Medellín en los años 80 y 90.')
+ Author.create(name: 'GIRLESA')
+=end
+Author.create(name: 'GIRLESA')
